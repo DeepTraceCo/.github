@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+<title id="t">DeepTrace workflow</title>
+<desc id="d">Seven steps: upload, auto-annotate, read with OCR, check scales, digitize, review overlay, export LAS 2.0.</desc>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="rgba(15,17,21,.05)" stroke-width="1"/></pattern>
+<radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(154 15) scale(576 270)"><stop offset="0" stop-color="#e8590c" stop-opacity="0.13"/><stop offset="1" stop-color="#e8590c" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1178 300) scale(512 240)"><stop offset="0" stop-color="#e8590c" stop-opacity="0.091"/><stop offset="1" stop-color="#e8590c" stop-opacity="0"/></radialGradient>
+</defs>
+<style>.pulse{animation:travel 8.4s linear infinite}@keyframes travel{0%{transform:translateX(0);opacity:0}3%{opacity:1}85%{transform:translateX(1048.0px);opacity:1}90%,100%{transform:translateX(1048.0px);opacity:0}}.ring{stroke-opacity:.18;animation:lit 8.4s ease-out infinite}@keyframes lit{0%{stroke-opacity:.18}4%{stroke-opacity:1}22%{stroke-opacity:.18}100%{stroke-opacity:.18}}@media (prefers-reduced-motion: reduce){.a{animation:none!important}.scan{opacity:0!important}}</style>
+<rect x="0.5" y="0.5" width="1279" height="299" rx="18" fill="#fbfaf7" stroke="rgba(15,17,21,.12)"/>
+<rect x="1" y="1" width="1278" height="298" rx="17.5" fill="url(#grid)"/>
+<rect x="1" y="1" width="1278" height="298" rx="17.5" fill="url(#glowA)"/>
+<rect x="1" y="1" width="1278" height="298" rx="17.5" fill="url(#glowB)"/>
+<path d="M116.0 104H1164.0" stroke="rgba(15,17,21,.22)" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+<g class="a pulse"><circle cx="116.0" cy="104" r="11" fill="#e8590c" opacity=".22"/><circle cx="116.0" cy="104" r="5" fill="#e8590c"/></g>
+<circle cx="116.0" cy="104" r="38" fill="#ffffff" stroke="rgba(15,17,21,.22)" stroke-width="1.2"/>
+<circle class="a ring" cx="116.0" cy="104" r="44" fill="none" stroke="#e8590c" stroke-width="2" style="animation-delay:-0.10s"/>
+<g transform="translate(116.0 104)" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#e8590c"><path d="M-13 5V12H13V5"/><path d="M0 7V-13"/><path d="M-7 -6L0 -13L7 -6"/></g>
+<circle cx="144.0" cy="76" r="12" fill="#e8590c"/>
+<text x="144.0" y="80.5" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
+<text x="116.0" y="182" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0f1115">Upload</text>
+<text x="116.0" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2" fill="#b5440a">TIFF · PDF</text>
+<circle cx="290.7" cy="104" r="38" fill="#ffffff" stroke="rgba(15,17,21,.22)" stroke-width="1.2"/>
+<circle class="a ring" cx="290.7" cy="104" r="44" fill="none" stroke="#e8590c" stroke-width="2" style="animation-delay:1.09s"/>
+<g transform="translate(290.7 104)" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#e8590c"><rect x="-14" y="-13" width="28" height="10" rx="1.5" stroke-dasharray="3 2.4"/><rect x="-14" y="2" width="13" height="11" rx="1.5" stroke-dasharray="3 2.4"/><rect x="3" y="2" width="11" height="11" rx="1.5"/></g>
+<circle cx="318.7" cy="76" r="12" fill="#e8590c"/>
+<text x="318.7" y="80.5" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+<text x="290.7" y="182" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0f1115">Auto-annotate</text>
+<text x="290.7" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2" fill="#b5440a">COMPUTER VISION</text>
+<circle cx="465.3" cy="104" r="38" fill="#ffffff" stroke="rgba(15,17,21,.22)" stroke-width="1.2"/>
+<circle class="a ring" cx="465.3" cy="104" r="44" fill="none" stroke="#e8590c" stroke-width="2" style="animation-delay:2.28s"/>
+<g transform="translate(465.3 104)" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#e8590c"><path d="M-14 -8V-14H-8M8 -14H14V-8M14 8V14H8M-8 14H-14V8"/><path d="M-7 6L-2.5 -6L2 6M-5.6 2H0.6"/><path d="M8 -1.5C5 -3 3.5 -1 3.5 1.5S5 6 8 4.5"/></g>
+<circle cx="493.3" cy="76" r="12" fill="#e8590c"/>
+<text x="493.3" y="80.5" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">3</text>
+<text x="465.3" y="182" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0f1115">Read with OCR</text>
+<text x="465.3" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2" fill="#b5440a">FRONTIER AI</text>
+<circle cx="640.0" cy="104" r="38" fill="#ffffff" stroke="rgba(15,17,21,.22)" stroke-width="1.2"/>
+<circle class="a ring" cx="640.0" cy="104" r="44" fill="none" stroke="#e8590c" stroke-width="2" style="animation-delay:3.47s"/>
+<g transform="translate(640.0 104)" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#e8590c"><rect x="-15" y="-7" width="30" height="14" rx="2"/><path d="M-10 -7V-1M-5 -7V-3M0 -7V0M5 -7V-3M10 -7V-1"/></g>
+<circle cx="668.0" cy="76" r="12" fill="#e8590c"/>
+<text x="668.0" y="80.5" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">4</text>
+<text x="640.0" y="182" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0f1115">Check scales</text>
+<text x="640.0" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2" fill="#b5440a">CALIBRATION</text>
+<circle cx="814.7" cy="104" r="38" fill="#ffffff" stroke="rgba(15,17,21,.22)" stroke-width="1.2"/>
+<circle class="a ring" cx="814.7" cy="104" r="44" fill="none" stroke="#e8590c" stroke-width="2" style="animation-delay:4.66s"/>
+<g transform="translate(814.7 104)" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#e8590c"><path d="M-15 8C-10 8 -10 -11 -5 -7S0 11 4 3S10 -10 15 -9"/><circle cx="-5" cy="-7" r="1.8" fill="currentColor"/><circle cx="4" cy="3" r="1.8" fill="currentColor"/></g>
+<circle cx="842.7" cy="76" r="12" fill="#e8590c"/>
+<text x="842.7" y="80.5" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">5</text>
+<text x="814.7" y="182" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0f1115">Digitize</text>
+<text x="814.7" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2" fill="#b5440a">CURVES</text>
+<circle cx="989.3" cy="104" r="38" fill="#ffffff" stroke="rgba(15,17,21,.22)" stroke-width="1.2"/>
+<circle class="a ring" cx="989.3" cy="104" r="44" fill="none" stroke="#e8590c" stroke-width="2" style="animation-delay:5.85s"/>
+<g transform="translate(989.3 104)" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#e8590c"><path d="M-15 0C-9 -9 9 -9 15 0C9 9 -9 9 -15 0Z"/><circle cx="0" cy="0" r="4.2"/></g>
+<circle cx="1017.3" cy="76" r="12" fill="#e8590c"/>
+<text x="1017.3" y="80.5" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">6</text>
+<text x="989.3" y="182" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0f1115">Review overlay</text>
+<text x="989.3" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2" fill="#b5440a">EXPERT REVIEW</text>
+<circle cx="1164.0" cy="104" r="38" fill="#ffffff" stroke="rgba(15,17,21,.22)" stroke-width="1.2"/>
+<circle class="a ring" cx="1164.0" cy="104" r="44" fill="none" stroke="#e8590c" stroke-width="2" style="animation-delay:7.04s"/>
+<g transform="translate(1164.0 104)" fill="none" stroke="#e8590c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#e8590c"><path d="M-10 -14H4L11 -7V14H-10Z"/><path d="M4 -14V-7H11"/><path d="M-5 -1H6M-5 4H6M-5 9H2"/></g>
+<circle cx="1192.0" cy="76" r="12" fill="#e8590c"/>
+<text x="1192.0" y="80.5" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">7</text>
+<text x="1164.0" y="182" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#0f1115">Export LAS 2.0</text>
+<text x="1164.0" y="210" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1.2" fill="#b5440a">STANDARD OUTPUT</text>
+<text x="640" y="262" text-anchor="middle" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#4a4843">The original imagery stays next to the results at every step, so each value can be checked in context.</text>
+</svg>

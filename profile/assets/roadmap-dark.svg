@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
+<title id="t">DeepTrace product roadmap</title>
+<desc id="d">Phase 1, current: well-log digitization. Phase 2, work in progress: LAS analysis. Phase 3, work in progress: multi-LAS comparative analysis. Phase 4, planned: carbon credits.</desc>
+<defs>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="rgba(232,230,225,.045)" stroke-width="1"/></pattern>
+<radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(154 17) scale(576 306)"><stop offset="0" stop-color="#e8590c" stop-opacity="0.2"/><stop offset="1" stop-color="#e8590c" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1178 340) scale(512 272)"><stop offset="0" stop-color="#e8590c" stop-opacity="0.140"/><stop offset="1" stop-color="#e8590c" stop-opacity="0"/></radialGradient>
+</defs>
+<style>.pr{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}@keyframes ping{0%{transform:scale(1);opacity:.55}100%{transform:scale(2.6);opacity:0}}@media (prefers-reduced-motion: reduce){.a{animation:none!important}.scan{opacity:0!important}}</style>
+<rect x="0.5" y="0.5" width="1279" height="339" rx="18" fill="#0f1115" stroke="rgba(232,230,225,.12)"/>
+<rect x="1" y="1" width="1278" height="338" rx="17.5" fill="url(#grid)"/>
+<rect x="1" y="1" width="1278" height="338" rx="17.5" fill="url(#glowA)"/>
+<rect x="1" y="1" width="1278" height="338" rx="17.5" fill="url(#glowB)"/>
+<linearGradient id="lg" gradientUnits="userSpaceOnUse" x1="182.0" y1="0" x2="487.3" y2="0"><stop offset="0" stop-color="#e8590c"/><stop offset="1" stop-color="#e8590c" stop-opacity=".25"/></linearGradient>
+<path d="M182.0 66H487.3" stroke="url(#lg)" stroke-width="3" stroke-linecap="round"/>
+<path d="M487.3 66H1098.0" stroke="rgba(232,230,225,.24)" stroke-width="2" stroke-dasharray="3 7" stroke-linecap="round"/>
+<circle class="a pr" cx="182.0" cy="66" r="10" fill="#e8590c"/>
+<circle cx="182.0" cy="66" r="10" fill="#e8590c"/>
+<path d="M182.0 78V100" stroke="#e8590c" stroke-width="1.2" opacity=".7"/>
+<rect x="42.0" y="100" width="280" height="210" rx="14" fill="#1c2128" stroke="#e8590c" stroke-width="1.6"/>
+<text x="64.0" y="134" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.6" fill="#6e6a62">PHASE 01</text>
+<rect x="232.2" y="117" width="70" height="24" rx="12" fill="#e8590c"/>
+<text x="267.1" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing=".8" fill="#ffffff">CURRENT</text>
+<text x="64.0" y="182" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-.3" fill="#e8e6e1">Well-log digitization</text>
+<text x="64.0" y="220" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">Turn legacy scans into</text>
+<text x="64.0" y="243" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">reviewable LAS 2.0 data.</text>
+<circle cx="487.3" cy="66" r="9" fill="#0f1115" stroke="#e8590c" stroke-width="2.4"/>
+<path d="M487.3 78V100" stroke="rgba(232,230,225,.12)" stroke-width="1.2" opacity=".7"/>
+<rect x="347.3" y="100" width="280" height="210" rx="14" fill="#1c2128" stroke="rgba(232,230,225,.12)" stroke-width="1"/>
+<text x="369.3" y="134" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.6" fill="#6e6a62">PHASE 02</text>
+<rect x="470.9" y="117" width="136" height="24" rx="12" fill="none" stroke="#e8590c"/>
+<text x="539.1" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing=".8" fill="#f07a36">WORK IN PROGRESS</text>
+<text x="369.3" y="182" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-.3" fill="#e8e6e1">LAS analysis</text>
+<text x="369.3" y="220" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">Interpret LAS curves and</text>
+<text x="369.3" y="243" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">assess formation properties.</text>
+<circle cx="792.7" cy="66" r="9" fill="#0f1115" stroke="#e8590c" stroke-width="2.4"/>
+<path d="M792.7 78V100" stroke="rgba(232,230,225,.12)" stroke-width="1.2" opacity=".7"/>
+<rect x="652.7" y="100" width="280" height="210" rx="14" fill="#1c2128" stroke="rgba(232,230,225,.12)" stroke-width="1"/>
+<text x="674.7" y="134" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.6" fill="#6e6a62">PHASE 03</text>
+<rect x="776.3" y="117" width="136" height="24" rx="12" fill="none" stroke="#e8590c"/>
+<text x="844.5" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing=".8" fill="#f07a36">WORK IN PROGRESS</text>
+<text x="674.7" y="182" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-.3" fill="#e8e6e1">Multi-LAS comparative</text>
+<text x="674.7" y="210" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-.3" fill="#e8e6e1">analysis</text>
+<text x="674.7" y="248" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">Compare LAS datasets to</text>
+<text x="674.7" y="271" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">reveal patterns across wells.</text>
+<circle cx="1098.0" cy="66" r="9" fill="#0f1115" stroke="#6e6a62" stroke-width="2" stroke-dasharray="3 3"/>
+<path d="M1098.0 78V100" stroke="rgba(232,230,225,.12)" stroke-width="1.2" opacity=".7"/>
+<rect x="958.0" y="100" width="280" height="210" rx="14" fill="#1c2128" stroke="rgba(232,230,225,.12)" stroke-width="1"/>
+<text x="980.0" y="134" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.6" fill="#6e6a62">PHASE 04</text>
+<rect x="1148.2" y="117" width="70" height="24" rx="12" fill="none" stroke="#6e6a62" stroke-dasharray="3 3"/>
+<text x="1183.1" y="133" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="600" letter-spacing=".8" fill="#a8a39a">PLANNED</text>
+<text x="980.0" y="182" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="-.3" fill="#e8e6e1">Carbon credits</text>
+<text x="980.0" y="220" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">Support carbon-credit project</text>
+<text x="980.0" y="243" font-family="'Space Grotesk','Inter','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" fill="#a8a39a">evaluation and reporting.</text>
+</svg>
