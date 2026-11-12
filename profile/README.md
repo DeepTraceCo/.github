@@ -92,6 +92,15 @@ A browser-based platform combining computer vision, multiple frontier AI models 
   <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-1c2128?style=flat-square&logo=sqlalchemy&logoColor=e8590c">
 </p>
 
+**Current release: DeepTrace 3.2.0** (November 2026), with digitizer engine 5 and OCR engine 2.
+
+<p>
+  <img alt="DeepTrace 3.2.0" src="https://img.shields.io/badge/DeepTrace-3.2.0-e8590c?style=flat-square&labelColor=1c2128">
+  <img alt="Digitizer engine 5" src="https://img.shields.io/badge/digitizer_engine-5-e8590c?style=flat-square&labelColor=1c2128">
+  <img alt="OCR engine 2" src="https://img.shields.io/badge/OCR_engine-2-e8590c?style=flat-square&labelColor=1c2128">
+  <img alt="Output: LAS 2.0" src="https://img.shields.io/badge/output-LAS_2.0-e8590c?style=flat-square&labelColor=1c2128">
+</p>
+
 | In | Out | Review |
 | --- | --- | --- |
 | TIFF and PDF well logs, multi-page source files | LAS 2.0 curves with well identifiers, units and scales | Source imagery alongside the results, inspected and corrected by the user |
