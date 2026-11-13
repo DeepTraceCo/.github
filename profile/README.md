@@ -92,11 +92,11 @@ A browser-based platform combining computer vision, multiple frontier AI models 
   <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-1c2128?style=flat-square&logo=sqlalchemy&logoColor=e8590c">
 </p>
 
-**Current release: DeepTrace 3.2.0** (November 2026), with digitizer engine 6 and OCR engine 2.
+**Current release: DeepTrace 3.2.0** (November 2026), with digitizer engine 7 and OCR engine 2.
 
 <p>
   <img alt="DeepTrace 3.2.0" src="https://img.shields.io/badge/DeepTrace-3.2.0-e8590c?style=flat-square&labelColor=1c2128">
-  <img alt="Digitizer engine 6" src="https://img.shields.io/badge/digitizer_engine-6-e8590c?style=flat-square&labelColor=1c2128">
+  <img alt="Digitizer engine 7" src="https://img.shields.io/badge/digitizer_engine-7-e8590c?style=flat-square&labelColor=1c2128">
   <img alt="OCR engine 2" src="https://img.shields.io/badge/OCR_engine-2-e8590c?style=flat-square&labelColor=1c2128">
   <img alt="Output: LAS 2.0" src="https://img.shields.io/badge/output-LAS_2.0-e8590c?style=flat-square&labelColor=1c2128">
 </p>
